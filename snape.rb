@@ -1,8 +1,8 @@
 class Snape < Formula
   desc "A Severus Snippet Manager - Handle your snippets with precision"
   homepage "https://github.com/rgcr/snape"
-  url "https://github.com/rgcr/snape/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "0358494a964a02ab899815b7ef3f988ded59875a99033580c794c870f9baab13"
+  url "https://github.com/rgcr/snape/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "92e26466c4082cd13d8b21061eeea116b459afac722f2934684ee66ab2d7f567"
   license "MIT"
   head "https://github.com/rgcr/snape.git", branch: "main"
 
