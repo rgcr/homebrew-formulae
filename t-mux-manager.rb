@@ -3,7 +3,7 @@ class TMuxManager < Formula
   desc "Lightweight tmux session and project manager written in Bash"
   homepage "https://github.com/rgcr/t-mux-manager"
   url "https://github.com/rgcr/t-mux-manager/archive/refs/tags/v#{version}.tar.gz"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "2364443fca67cbacf85337cd9f8fb124a3d3a51934742be48f1a103491c7903c"
   license "MIT"
   head "https://github.com/rgcr/t-mux-manager.git", branch: "main"
 
