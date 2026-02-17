@@ -1,4 +1,4 @@
-class TmuxManager < Formula
+class TMuxManager < Formula
   version "0.1.0"
   desc "Lightweight tmux session and project manager written in Bash"
   homepage "https://github.com/rgcr/t-mux-manager"
