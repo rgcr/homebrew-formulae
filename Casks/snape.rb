@@ -5,7 +5,7 @@ cask "snape" do
   url "https://github.com/rgcr/snape/releases/download/v#{version}/Snape-#{version}-macos.dmg"
   name "Snape"
   desc "A Severus Snippet Manager - handle your snippets with precision"
-s homepage "https://github.com/rgcr/snape"
+  homepage "https://github.com/rgcr/snape"
 
   depends_on macos: ">= :ventura"
 
