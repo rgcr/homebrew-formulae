@@ -11,6 +11,11 @@ cask "snape" do
 
   app "Snape.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/Snape.app"]
+  end
+
   zap trash: [
     "~/.config/snape",
     "~/Library/Preferences/com.snape.snippetmanager.plist",
