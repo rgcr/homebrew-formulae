@@ -32,6 +32,8 @@ cask "stickyshot" do
     Note: After upgrading, you may need to re-grant permissions.
     Remove and re-add StickyShot in both settings if hotkey stops working.
 
+    # kill current app
+    killall StickyShot 2>/dev/null;
 
     Open StickyShot app and start taking screenshots!
     Default shortcut: ⌘⇧2
