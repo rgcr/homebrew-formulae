@@ -1,6 +1,6 @@
 cask "stickyshot" do
-  version "1.0.0"
-  sha256 "dd39df273f0186ecbc1177bc1a3cff97bfa2ba49331082df1a88bffa6946fd55"
+  version "1.1.0"
+  sha256 "902b65e637dfede4c39633ae36d2de8c9f1e2ac096720270940087e0fa045277"
 
   url "https://github.com/rgcr/stickyshot/releases/download/v#{version}/StickyShot-#{version}-macos.dmg"
   name "StickyShot"
@@ -24,14 +24,17 @@ cask "stickyshot" do
   caveats <<~EOS
     StickyShot requires Accessibility and Screen Recording permissions.
 
-    After installation:
-        1. Open System Settings → Privacy & Security → Accessibility
-        2. Add StickyShot.app
-        3. Open System Settings → Privacy & Security → Screen Recording
-        4. Add StickyShot.app
+    After installation (or upgrade):
+      1. System Settings → Privacy & Security → Accessibility → Add StickyShot
+      2. System Settings → Privacy & Security → Screen Recording → Add StickyShot
 
-    Configuration is stored in: ~/.config/stickyshot/
 
+    Note: After upgrading, you may need to re-grant permissions.
+    Remove and re-add StickyShot in both settings if hotkey stops working.
+
+
+    Open StickyShot app and start taking screenshots!
     Default shortcut: ⌘⇧2
+
   EOS
 end
