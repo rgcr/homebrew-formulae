@@ -1,9 +1,9 @@
 class TMuxManager < Formula
-  version "0.1.0"
+  version "0.2.0"
   desc "Lightweight tmux session and project manager written in Bash"
   homepage "https://github.com/rgcr/t-mux-manager"
   url "https://github.com/rgcr/t-mux-manager/archive/refs/tags/v#{version}.tar.gz"
-  sha256 "2364443fca67cbacf85337cd9f8fb124a3d3a51934742be48f1a103491c7903c"
+  sha256 "c96d8ce19d4c6a8ce1b1480b7ab1256e8cbfc8fe79b7f6b3169c286245ff430e"
   license "MIT"
   head "https://github.com/rgcr/t-mux-manager.git", branch: "main"
 
